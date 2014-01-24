@@ -1,0 +1,91 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: O=ROSA, CN=ROSA CA
+        Validity
+            Not Before: Jan 24 17:25:15 2014 GMT
+            Not After : Jan 24 17:25:15 2015 GMT
+        Subject: O=ROSA, CN=server
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (2048 bit)
+                Modulus (2048 bit):
+                    00:e0:d3:6d:9f:c2:db:7e:6f:1b:73:8a:8d:d3:12:
+                    b9:5e:23:09:75:3c:24:ce:3b:a7:65:20:28:ea:c3:
+                    7f:f3:16:e1:77:78:ba:d7:76:ee:b0:b2:fc:7e:08:
+                    a2:b1:f7:e4:90:4f:97:9d:c8:6b:0a:b4:f4:5e:62:
+                    cd:48:db:62:4b:7c:37:69:80:cd:99:e7:25:72:8b:
+                    dd:9c:00:bd:87:eb:0b:5f:0c:d8:fa:34:62:88:f0:
+                    07:c7:f4:1c:7b:ed:26:84:f8:de:a9:bc:e4:7b:5a:
+                    7c:a7:7b:af:cd:e4:36:95:42:8f:97:1a:33:53:09:
+                    02:e5:44:af:f7:5d:87:91:6f:eb:39:04:95:e3:34:
+                    d0:ad:f7:db:1e:95:a9:a7:2b:5d:f9:00:90:65:10:
+                    d4:0e:f8:19:f7:d7:e4:92:2b:d2:43:46:ca:38:4c:
+                    49:1b:4d:f7:ba:bb:43:ea:92:77:9a:95:04:94:76:
+                    a0:b6:d9:48:24:33:45:da:2e:9d:7d:a0:38:2f:54:
+                    db:39:37:bc:df:a8:d7:98:64:b7:53:eb:00:2e:84:
+                    37:50:2f:ca:b5:c3:f1:ea:53:ee:46:ae:da:73:0d:
+                    df:04:af:ca:57:3b:89:bc:6d:ec:5c:5a:cc:99:eb:
+                    14:5e:5f:fc:91:53:7f:da:2a:27:53:92:95:4b:a7:
+                    91:6d
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Digital Signature, Non Repudiation, Key Encipherment, Data Encipherment, Key Agreement
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Subject Key Identifier: 
+                2D:D7:77:53:28:6F:C9:EC:19:17:5E:04:B3:2C:63:6C:D8:A5:25:00
+            X509v3 Authority Key Identifier: 
+                keyid:D2:1B:1E:BC:27:E0:B6:DE:7B:C5:2F:64:DC:6B:56:48:31:53:93:CB
+
+            Authority Information Access: 
+                CA Issuers - URI:http://rosa.ca/ca.crt
+
+            X509v3 CRL Distribution Points: 
+                URI:http://rosa.ca/ca.crl
+
+            X509v3 Subject Alternative Name: 
+                DNS:rosa.ca
+    Signature Algorithm: sha1WithRSAEncryption
+        bc:19:fe:39:fa:2c:ce:40:39:d9:f1:51:b5:7b:b4:9d:24:f9:
+        ee:8a:9b:b9:d3:65:69:35:6b:6b:fd:34:9b:72:a2:32:bd:8c:
+        ff:77:03:88:91:02:d1:41:03:57:dc:a1:03:84:f0:38:46:7b:
+        14:5a:e2:e1:ef:27:78:7b:bd:e6:01:fe:d4:f8:01:d6:01:ed:
+        d9:b7:60:82:88:04:a5:5f:d8:7c:7c:9e:c2:fd:01:e0:b4:a8:
+        84:40:67:00:d9:17:9f:62:ce:46:a6:2c:81:bc:1f:2c:aa:9a:
+        eb:39:bb:48:67:8f:41:3f:66:4e:cd:93:11:32:cc:52:e3:3e:
+        ab:ab:44:82:02:c9:36:9c:7e:24:e2:48:f3:68:06:aa:69:c5:
+        9c:ad:23:8c:71:b8:77:bb:1e:17:9c:0e:2f:f5:a2:cd:2d:9a:
+        4d:da:dc:74:42:8d:e6:a4:4d:f6:d8:0f:df:44:da:03:82:2a:
+        b7:03:7c:5f:9b:e8:47:33:68:fb:9f:81:03:1b:14:7a:80:16:
+        7a:ca:b4:86:50:33:40:e0:69:aa:6c:9d:cf:37:9e:a7:5e:c5:
+        3e:62:13:f4:a4:2d:cc:64:77:75:da:65:81:d3:cb:aa:57:3d:
+        b6:a6:74:df:48:d0:1e:23:40:2d:77:9d:17:a6:d3:08:d2:df:
+        db:50:e8:cb
+-----BEGIN CERTIFICATE-----
+MIIDqTCCApGgAwIBAgIBAjANBgkqhkiG9w0BAQUFADAhMQ0wCwYDVQQKDARST1NB
+MRAwDgYDVQQDDAdST1NBIENBMB4XDTE0MDEyNDE3MjUxNVoXDTE1MDEyNDE3MjUx
+NVowIDENMAsGA1UECgwEUk9TQTEPMA0GA1UEAwwGc2VydmVyMIIBIjANBgkqhkiG
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4NNtn8Lbfm8bc4qN0xK5XiMJdTwkzjunZSAo
+6sN/8xbhd3i613busLL8fgiisffkkE+XnchrCrT0XmLNSNtiS3w3aYDNmeclcovd
+nAC9h+sLXwzY+jRiiPAHx/Qce+0mhPjeqbzke1p8p3uvzeQ2lUKPlxozUwkC5USv
+912HkW/rOQSV4zTQrffbHpWppytd+QCQZRDUDvgZ99fkkivSQ0bKOExJG033urtD
+6pJ3mpUElHagttlIJDNF2i6dfaA4L1TbOTe836jXmGS3U+sALoQ3UC/KtcPx6lPu
+Rq7acw3fBK/KVzuJvG3sXFrMmesUXl/8kVN/2ionU5KVS6eRbQIDAQABo4HsMIHp
+MA4GA1UdDwEB/wQEAwID+DAJBgNVHRMEAjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMB
+BggrBgEFBQcDAjAdBgNVHQ4EFgQULdd3UyhvyewZF14EsyxjbNilJQAwHwYDVR0j
+BBgwFoAU0hsevCfgtt57xS9k3GtWSDFTk8swMQYIKwYBBQUHAQEEJTAjMCEGCCsG
+AQUFBzAChhVodHRwOi8vcm9zYS5jYS9jYS5jcnQwJgYDVR0fBB8wHTAboBmgF4YV
+aHR0cDovL3Jvc2EuY2EvY2EuY3JsMBIGA1UdEQQLMAmCB3Jvc2EuY2EwDQYJKoZI
+hvcNAQEFBQADggEBALwZ/jn6LM5AOdnxUbV7tJ0k+e6Km7nTZWk1a2v9NJtyojK9
+jP93A4iRAtFBA1fcoQOE8DhGexRa4uHvJ3h7veYB/tT4AdYB7dm3YIKIBKVf2Hx8
+nsL9AeC0qIRAZwDZF59izkamLIG8Hyyqmus5u0hnj0E/Zk7NkxEyzFLjPqurRIIC
+yTacfiTiSPNoBqppxZytI4xxuHe7HhecDi/1os0tmk3a3HRCjeakTfbYD99E2gOC
+KrcDfF+b6EczaPufgQMbFHqAFnrKtIZQM0Dgaapsnc83nqdexT5iE/SkLcxkd3Xa
+ZYHTy6pXPbamdN9I0B4jQC13nRem0wjS39tQ6Ms=
+-----END CERTIFICATE-----

@@ -1,0 +1,1 @@
+keytool -import -alias ca_rosa -file ca.crt -keystore "C:/Program Files/Java/jdk1.7.0_45/jre/lib/security/cacerts"
